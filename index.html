@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi Página | Tomas Campos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>👋 Hola, este es mi página</h1>
+    <p><strong>Tengo todo mi conocimiento y experiencia en esta página.</strong></p>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a> ·
+      <a href="#conocimientos">Conocimientos</a> ·
+      <a href="#experiencia">Experiencia</a> ·
+      <a href="#proyectos">Proyectos</a> ·
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section id="sobre-mi" aria-labelledby="titulo-sobre-mi">
+      <h2 id="titulo-sobre-mi">Sobre mí</h2>
+      <p>Soy estudiante de Programador Universitario Informático (UNSE) y cuento con certificado de Desarrollador Web Inicial (UTN). Me interesa crear cosas útiles y seguir aprendiendo cada día.</p>
+      <blockquote>“Aprender haciendo.”</blockquote>
+      <hr>
+    </section>
+
+    <section id="conocimientos" aria-labelledby="titulo-conocimientos">
+      <h2 id="titulo-conocimientos">Conocimientos</h2>
+      <ul>
+        <li>Lenguaje C (programación estructurada)</li>
+        <li>HTML5 (semántica y accesibilidad)</li>
+        <li>CSS básico (maquetado) — <em>en esta página no uso CSS</em></li>
+      </ul>
+
+      <details>
+        <summary>Ver más detalles técnicos</summary>
+        <p>Herramientas: Visual Studio Code, Git/GitHub (básico). Interés por buenas prácticas y documentación.</p>
+      </details>
+      <hr>
+    </section>
+
+    <section id="experiencia" aria-labelledby="titulo-experiencia">
+      <h2 id="titulo-experiencia">Experiencia</h2>
+      <p>Experiencia académica y proyectos personales:</p>
+      <ol>
+        <li>Pequeños programas en <code>C</code> (ej.:operaciones logicos, manejo de archivos,base de datos).</li>
+        <li>Páginas informativas con <code>HTML,C,CSS,PHP,javascrip</code>.</li>
+      </ol>
+      <aside>
+        <p><mark>Nota:</mark> Si querés ver el código, mirá la sección de Proyectos.</p>
+      </aside>
+      <hr>
+    </section>
+
+    <section id="proyectos" aria-labelledby="titulo-proyectos">
+      <h2 id="titulo-proyectos">Proyectos</h2>
+      <p>Algunos ejemplos (colocá tus enlaces cuando los tengas):</p>
+      <ul>
+        <li><a href="#" rel="noopener">Portfolio HTML</a></li>
+        <li><a href="#" rel="noopener">App en C — Calculadora</a></li>
+      </ul>
+
+      <p>Progreso de aprendizaje:</p>
+      <label for="progreso">HTML/C/CSS</label>
+      <progress id="progreso" value="60" max="100">60%</progress>
+      <hr>
+    </section>
+
+    <section id="contacto" aria-labelledby="titulo-contacto">
+      <h2 id="titulo-contacto">Contacto</h2>
+      <address>
+        Email: <a href="mailto:campostomas890@gmail.com">campostomas890@gmail.com</a><br>
+        Ubicación: Santiago del Estero, Argentina
+      </address>
+      <p>¿Querés hablar? Tocá <kbd>Ctrl</kbd> + <kbd>L</kbd> y pegá mi correo 😉</p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>© <time datetime="2025">2025</time> Tomas Campos. Hecho con solo HTML5.</p>
+  </footer>
+</body>
+</html>
